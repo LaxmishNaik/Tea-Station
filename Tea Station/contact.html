@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Staion || Contact</title>
+    <!---------Icons--------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-------Custom CSS------>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!----------navbar------>
+    <!-------nav button----->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+      </div>
+      <ul class="nav-item">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="products.html" class="nav-link">products</a></li>
+        <li><a href="contact.html" class="nav-link">Contact US</a></li>
+      </ul>
+    </nav>
+    <!----------end of navbar------>
+    <!----------header------->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavors of</h2>
+        <h1>
+          Specially <br />
+          crafted tea
+        </h1>
+        <a href="skills.html" class="btn banner-btn">Explore</a>
+      </div>
+    </header>
+    <!----------end of header------->
+
+    <!------------contact form--------->
+    <section class="contact">
+      <div class="section-center clearfix">
+        <!--------contact info----->
+        <article class="contact-info">
+          <!---------contact item------>
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fa-solid fa-location-arrow"></i>
+              </span>
+              address
+            </h4>
+            <h4 class="contact-text">
+              642 N Gandhinagar LSS <br />
+              Bhatkal, UK 581320
+            </h4>
+          </div>
+          <!---------end of contact item------>
+
+          <!---------contact item------>
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              email
+            </h4>
+            <h4 class="contact-text">email@email.com</h4>
+          </div>
+          <!---------end of contact item------>
+          <!---------contact item------>
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fa-solid fa-phone-flip"></i>
+              </span>
+              telephone
+            </h4>
+            <h4 class="contact-address">+123 456 789</h4>
+          </div>
+          <!---------end of contact item------>
+        </article>
+        <!--------contact form----->
+        <article class="contact-form">
+          <h3>contact us</h3>
+          <form action="https://formspree.io/f/xyyolqne" method="POST">
+            <div class="form-group">
+              <!------inputs------>
+              <input
+                type="text"
+                placeholder="name"
+                class="form-control"
+                name="name"
+              />
+              <input
+                type="email"
+                placeholder="email"
+                class="form-control"
+                name="email"
+              />
+              <textarea
+                name="message"
+                placeholder="message"
+                class="form-control"
+                rows="5"
+              ></textarea>
+            </div>
+            <!------button------>
+            <button type="submit" class="submit-btn btn">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!------------end of contact form--------->
+
+    <!--------footer-------->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <!--------end of social icon------>
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <!--------end of social icon------>
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <!--------end of social icon------>
+        </div>
+        <h4 class="footer-text">
+          &copy;
+          <span id="date"></span>
+          <span class="company">tea station</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

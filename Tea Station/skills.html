@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Staion || Skills</title>
+    <!---------Icons--------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-------Custom CSS------>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!----------navbar------>
+    <!-------nav button----->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+      </div>
+      <ul class="nav-item">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="products.html" class="nav-link">products</a></li>
+      </ul>
+    </nav>
+    <!----------end of navbar------>
+    <!----------header------->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavors of</h2>
+        <h1>
+          Specially <br />
+          crafted tea
+        </h1>
+        <a href="./skills.html" class="btn banner-btn">Explore</a>
+      </div>
+    </header>
+    <!----------end of header------->
+
+    <!-------services------>
+    <section class="service">
+      <!--------section title-------->
+      <div class="section-title services-title">
+        <h3>explore</h3>
+        <h2>our services</h2>
+      </div>
+      <!--------end of section title-------->
+      <div class="section-center clearfix">
+        <!---------single card------->
+        <article class="service-card">
+          <!------img container------->
+          <div class="service-img-container">
+            <!------img------->
+            <img
+              src="./Images/P3.jpg"
+              alt="single service"
+              class="service-img"
+            />
+            <!-------services icon------->
+            <span class="service-icon">
+              <i class="fa-solid fa-mortar-pestle"></i>
+            </span>
+          </div>
+          <!----------service info----->
+          <div class="service-info">
+            <h4>custom recipes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, vel
+              eos. Quo itaque iusto laboriosam.
+            </p>
+            <a href="#" class="btn service-btn">read more</a>
+          </div>
+        </article>
+        <!---------end of single card------->
+
+        <!---------single card------->
+        <article class="service-card">
+          <!------img container------->
+          <div class="service-img-container">
+            <!------img------->
+            <img
+              src="./Images/P1.jpg"
+              alt="single service"
+              class="service-img"
+            />
+            <!-------services icon------->
+            <span class="service-icon">
+              <i class="fa-solid fa-house"></i>
+            </span>
+          </div>
+          <!----------service info----->
+          <div class="service-info">
+            <h4>Home delivery</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, vel
+              eos. Quo itaque iusto laboriosam.
+            </p>
+            <a href="#" class="btn service-btn">read more</a>
+          </div>
+        </article>
+        <!---------end of single card------->
+
+        <!---------single card------->
+        <article class="service-card">
+          <!------img container------->
+          <div class="service-img-container">
+            <!------img------->
+            <img
+              src="./Images/P3.jpg"
+              alt="single service"
+              class="service-img"
+            />
+            <!-------services icon------->
+            <span class="service-icon">
+              <i class="fa-solid fa-mug-hot"></i>
+            </span>
+          </div>
+          <!----------service info----->
+          <div class="service-info">
+            <h4>tea aging</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, vel
+              eos. Quo itaque iusto laboriosam.
+            </p>
+            <a href="#" class="btn service-btn">read more</a>
+          </div>
+        </article>
+        <!---------end of single card------->
+      </div>
+    </section>
+    <!-------end of services------>
+
+    <!--------footer-------->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <!--------end of social icon------>
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <!--------end of social icon------>
+          <!-------social icon---->
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <!--------end of social icon------>
+        </div>
+        <h4 class="footer-text">
+          &copy;
+          <span id="date"></span>
+          <span class="company">tea station</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
